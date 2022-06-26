@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/roe-v-wade/static/css/main.434593e6.css",
+    "main.js": "/roe-v-wade/static/js/main.4c210d52.js",
+    "static/media/icon.png": "/roe-v-wade/static/media/icon.04c5fa537031ab78a7c4.png",
+    "index.html": "/roe-v-wade/index.html",
+    "main.434593e6.css.map": "/roe-v-wade/static/css/main.434593e6.css.map",
+    "main.4c210d52.js.map": "/roe-v-wade/static/js/main.4c210d52.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.434593e6.css",
+    "static/js/main.4c210d52.js"
+  ]
+}
