@@ -103,7 +103,7 @@ const StyledMapHolder = styled.div`
 
 
 const CardImg = ({link}) => {
-  return <a href={link}><img src={icon} height='90rem' width='90rem'/></a>
+  return <a href={link}><img src={icon} height='90rem' width='90rem' alt="maps icon"/></a>
 }
 
 const StyledCardImg = styled(CardImg)`
