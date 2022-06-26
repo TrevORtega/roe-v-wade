@@ -99,6 +99,7 @@ const StyledMapHolder = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
+  width: 100%;
 `;
 
 
@@ -113,7 +114,7 @@ const StyledCardImg = styled(CardImg)`
 const StateInfo = ({abbr, setCurState}) => {
   const link = 'https://maps.google.com/?q=' + NEEDS_CONVINCING[abbr].info;
   return (
-    <Card style={{ width: '30rem', display: 'flex', 
+    <Card style={{ width: '80%', display: 'flex', 
                    flexDirection: 'column', alignItems: 'center' }}>
       <Card.Header style={{width: '100%'}}> 
       {quotes[Math.floor(quotes.length * Math.random())]} 
@@ -165,7 +166,7 @@ const App = () => {
           curState === '' ? ( 
               <>
                 <Legend />
-                <USAMap customize={statesCustomConfig()} onClick={mapHandler} />
+                <USAMap customize={statesCustomConfig()} onClick={mapHandler} width='100%' />
                 <p>{'*All state information is found publicly via google and all legal analysis is sourced from Guttmacher Institute, Center for Reproductive Rights, and Post reporting'}</p>
               </>
             )
